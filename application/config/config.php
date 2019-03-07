@@ -114,7 +114,7 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'MY_'; //mặc định là MY_ nên tạo ở core là MY_Controller 
 
 /*
 |--------------------------------------------------------------------------

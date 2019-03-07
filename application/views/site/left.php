@@ -9,11 +9,11 @@
             <div class="form-row">
                 <label for="param_price_from" class="form-label" style="width:70px">Giá từ:<span class="req">*</span></label>
                 <div class="form-item" style="width:90px">
-                    <select class="input" id="price_from" name="price_from">
-                        <option value="0">
+                    <select class="selectpicker" id="price_from" name="price_from">
+                        <option  value="0">
                             0 đ
                         </option>
-                        <option value="1000000">
+                        <option  data-content="<span class='badge badge-success'> 1000000 </span>">
                             1,000,000 đ
                         </option>
                         <option value="2000000">
